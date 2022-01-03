@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@400;600&display=swap");
+
+.SignUp {
+	position: absolute;
+	width: 100px;
+	height: 64px;
+	left: 100px;
+	top: 627px;
+
+	background: #205f98;
+	border-radius: 10px;
+}
+
+.loginButton {
+        position: absolute;
+        width: 240px;
+        height: 64px,
+        left: 12%;
+        top: 70%;
+        background: #FFFFFF;
+        border: 5px solid #205F98;
+        border-radius: 10px
+}

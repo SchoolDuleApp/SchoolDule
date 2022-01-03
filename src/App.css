@@ -1,0 +1,395 @@
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@400;600&display=swap");
+.App {
+	text-align: center;
+	width: 100vw;
+	height: 100vh;
+	font-family: "Sora", sans-serif;
+	background-color: #edf3f8;
+}
+
+.App-logo {
+	height: 40vmin;
+	pointer-events: none;
+}
+
+#page-wrap {
+	text-align: center;
+	overflow: auto;
+	background-color: #edf3f8;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+	.App-logo {
+		animation: App-logo-spin infinite 20s linear;
+	}
+}
+
+.App-header {
+	background-color: #edf3f8;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-size: calc(10px + 2vmin);
+	color: white;
+}
+
+.App-link {
+	color: #edf3f8;
+}
+
+@keyframes App-logo-spin {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}
+
+body {
+	background-color: #edf3f8;
+	margin: 0;
+	padding: 0;
+}
+h1 {
+	color: #205f98;
+	background-color: #edf3f8;
+}
+p {
+	color: #c3dbef;
+}
+form {
+	background-color: #edf3f8;
+}
+.te {
+	background-color: #edf3f8;
+}
+.done {
+	text-decoration: line-through;
+	color: indigo;
+}
+.timeField {
+	height: 30px;
+	width: 50px;
+}
+
+/* Sidebar */
+.SideBar {
+	height: 100%;
+	width: 98px;
+	background-color: #ffffff;
+	float: left;
+	padding: none;
+	margin: 0;
+}
+.SidebarList {
+	height: auto;
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+}
+.AppIcon {
+	height: auto;
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+}
+.UserIcon {
+	height: auto;
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+}
+.SidebarList .row:hover {
+	cursor: pointer;
+	background-color: #edf3f8;
+}
+.SidebarList .row {
+	width: 100%;
+	height: 75px;
+	list-style-type: none;
+	display: flex;
+	flex-direction: row;
+	color: #205f98;
+	justify-content: center;
+	align-items: center;
+	top: 50%;
+	transform: translateY(300%);
+	margin: 0px;
+	padding: 0px;
+}
+.row #icon {
+	display: grid;
+	place-items: center;
+}
+.SideBar .AppIcon {
+	height: auto;
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+}
+.AppIcon .row:hover {
+	cursor: pointer;
+	background-color: #edf3f8;
+}
+.AppIcon .row {
+	width: 100%;
+	height: 75px;
+	list-style-type: none;
+	display: flex;
+	flex-direction: row;
+	color: #205f98;
+	justify-content: center;
+	align-items: center;
+	transform: translateY(50%);
+	padding: 0px;
+	margin: 0px;
+}
+.UserIcon .row:hover {
+	cursor: pointer;
+	background-color: #edf3f8;
+}
+.UserIcon .row {
+	width: 100%;
+	height: 75px;
+	list-style-type: none;
+	display: flex;
+	flex-direction: row;
+	color: #205f98;
+	justify-content: center;
+	align-items: center;
+	transform: translateY(500%);
+	padding: 0px;
+	margin: 0px;
+}
+
+/* Dashbar */
+.DashBar {
+	align-items: center;
+	position: absolute;
+	margin: 10px;
+	color: #edf3f8;
+	font-family: "Sora", sans-serif;
+}
+.Welcome {
+	position: absolute;
+	width: 40%;
+	left: 2%;
+	height: 50%;
+	font-family: Sora;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 22px;
+	line-height: 28px;
+	text-align: left;
+	color: #205f98;
+}
+.TodayIs {
+	position: absolute;
+	width: 40%;
+	left: 30%;
+	height: 50%;
+
+	font-family: Sora;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 22px;
+	line-height: 28px;
+	/* identical to box height */
+
+	text-align: center;
+
+	color: #205f98;
+}
+.CurrentTime {
+	position: absolute;
+	width: 20%;
+	left: 78%;
+	height: 50%;
+	font-family: Sora;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 22px;
+	line-height: 28px;
+
+	text-align: right;
+
+	color: #205f98;
+}
+
+/* Current Tasks Bubble */
+.CurrentTaskBubble {
+	width: 58%;
+	height: auto;
+	position: relative;
+	color: #205f98;
+	background-color: #c3dbef;
+	padding: 85px 15px;
+	margin: 25px;
+	border-radius: 20px;
+}
+.CurrentTaskBubble .topleft {
+	position: absolute;
+	top: 15px;
+	left: 35px;
+	font-size: 18px;
+	font-family: "Sora", sans-serif;
+}
+.CurrentTaskBubble .Subject {
+	width: 30%;
+	position: absolute;
+	left: 20px;
+	top: 40px;
+	color: #205f98;
+	background-color: #edf3f8;
+	margin: 10px;
+	padding: 10px;
+	border-radius: 10px;
+	clear: left;
+	text-align: left;
+	font-family: "Sora", sans-serif;
+}
+
+.CurrentTaskBubble .AllocatedTime {
+	width: 30%;
+	position: absolute;
+	left: 35%;
+	top: 40px;
+	color: #205f98;
+	background-color: #edf3f8;
+	margin: 10px;
+	padding: 10px;
+	border-radius: 10px;
+	clear: left;
+	text-align: left;
+	font-family: "Sora", sans-serif;
+}
+.CurrentTaskBubble .Description {
+	width: 63%;
+	position: absolute;
+	left: 20px;
+	top: 95px;
+	color: #205f98;
+	background-color: #ffffff;
+	margin: 10px;
+	padding: 10px;
+	border-radius: 10px;
+	clear: left;
+	text-align: left;
+	font-family: "Sora", sans-serif;
+}
+.CurrentTaskBubble .StartTime {
+	width: 27%;
+	position: absolute;
+	right: 25px;
+	top: 5px;
+	color: #205f98;
+	background-color: #ffffff;
+	margin: 10px;
+	padding: 20px;
+	border-radius: 10px;
+	clear: left;
+	text-align: left;
+	font-family: "Sora", sans-serif;
+}
+.CurrentTaskBubble .EndTime {
+	width: 27%;
+	position: absolute;
+	right: 25px;
+	top: 85px;
+	color: #205f98;
+	background-color: #ffffff;
+	margin: 10px;
+	padding: 20px;
+	border-radius: 10px;
+	clear: left;
+	text-align: left;
+	font-family: "Sora", sans-serif;
+}
+
+/* 
+.UpcomingTaskBubble {
+	width: 58%;
+	position: absolute;
+	height: 48px;
+	left: 713px;
+	top: 155px;
+
+	background: #ffffff;
+	border-radius: 10px;
+
+} 
+
+.UpcomingTaskBubble .topleft {
+	position: absolute;
+	top: 15px;
+	left: 35px;
+	font-size: 18px;
+	font-family: "Sora", sans-serif;
+}
+
+
+*/
+
+.popup-box {
+	position: fixed;
+	background: #00000050;
+	width: 100%;
+	height: 100vh;
+	top: 0;
+	left: 0;
+}
+
+.box {
+	position: relative;
+	width: 70%;
+	margin: 0 auto;
+	height: auto;
+	max-height: 70vh;
+	margin-top: calc(100vh - 85vh - 20px);
+	background: #fff;
+	border-radius: 4px;
+	padding: 20px;
+	border: 1px solid #999;
+	overflow: auto;
+}
+
+.close-icon {
+	content: "x";
+	cursor: pointer;
+	position: fixed;
+	right: calc(15% - 30px);
+	top: calc(100vh - 85vh - 33px);
+	background: #ededed;
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
+	line-height: 20px;
+	text-align: center;
+	border: 1px solid #999;
+	font-size: 20px;
+}
+
+.tasks {
+	background-color: #edf3f8;
+}
+.countdown-timer {
+	position: relative;
+	width: 250px;
+	height: 140px;
+	left: 942px;
+	top: 79px;
+	background-color: #c3dbef;
+	border-radius: 10px;
+}
+.signUp {
+	position: absolute;
+	width: 240px;
+	height: 64px;
+	left: 61px;
+	top: 627px;
+	background: #205f98;
+	border-radius: 10px;
+}
