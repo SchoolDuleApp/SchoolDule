@@ -1,8 +1,9 @@
 import "../App.css";
 import "../Styles/Login.css";
-import react, { useState, button } from "react";
-import React, { ReactDOM } from "react";
-import { GoogleLogin } from "react-google-login";
+// import react, { useState, button } from "react";
+import React from "react";
+// import { ReactDOM } from "react";
+// import { GoogleLogin } from "react-google-login";
 import SignUp from "../MainComponents/SignUpPage";
 
 class Login extends React.Component {
@@ -49,7 +50,7 @@ class Login extends React.Component {
 					Everything you need to manage your schedule.
 				</h2>
 				<h3 className = "AboutDescription">
-					We get it, life can be hectic sometimes. Manage school, work, extracurriculars and make time for hobbies and breaks with SchoolDule. Whether its to stay on top of things or just be more organized, SchoolDule has got you covered. 
+					We get it, life can be hectic sometimes. Manage school, work, and breaks with SchoolDule. Whether it's to stay on top of things or just be more organized, SchoolDule has got you covered. 
 				</h3>
 				<div id="loginButton" className="loginButton"
 				style = {{
@@ -63,7 +64,10 @@ class Login extends React.Component {
 				</div>
 				</div>
 				</div>
-				<img src="https://cdn.discordapp.com/attachments/925846117327994890/927311974633709628/unknown.png" alt="SchoolDule" />
+				<img src="https://cdn.discordapp.com/attachments/925846117327994890/927311974633709628/unknown.png" alt="SchoolDule" className = "loginPhoto"/>
+				<img src= "https://cdn.discordapp.com/attachments/925606377198608386/927426711958720642/unknown.png" alt = " " className = "smallerLoginPhoto"/>
+				<img src= "https://cdn.discordapp.com/attachments/925606377198608386/927426759362748486/unknown.png" alt = " " className = "smallerLoginPhoto2"/>
+				<img src="https://cdn.discordapp.com/attachments/925606377198608386/927426837871734814/unknown.png" alt = " " className = "smallerLoginPhoto3"/>
 				<SignUp />
 			</div>
 		);

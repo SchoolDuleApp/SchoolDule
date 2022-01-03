@@ -6,7 +6,6 @@ import "react-datepicker/dist/react-datepicker.css";
 
 function TaskPopUps({ taskType, handleClose, allTasks, setAllTasks }) {
 	// keys for {TASK}
-	{
 		/*
         // new Date(...)
         // in order ... : year, month, day, hour, minute, second, and millisecond 
@@ -36,7 +35,6 @@ function TaskPopUps({ taskType, handleClose, allTasks, setAllTasks }) {
         
     
     */
-	}
 	const [subject, setSubject] = useState("");
 	const [description, setDescription] = useState("");
 	const [date, setDate] = useState(new Date());
