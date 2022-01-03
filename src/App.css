@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Sora:wght@400;600&display=swap");
 .App {
+	position: absolute;
 	text-align: center;
 	width: 100vw;
 	height: 100vh;
@@ -16,12 +17,7 @@
 	text-align: center;
 	overflow: auto;
 	background-color: #edf3f8;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-	.App-logo {
-		animation: App-logo-spin infinite 20s linear;
-	}
+	height: 100vh;
 }
 
 .App-header {
@@ -37,15 +33,6 @@
 
 .App-link {
 	color: #edf3f8;
-}
-
-@keyframes App-logo-spin {
-	from {
-		transform: rotate(0deg);
-	}
-	to {
-		transform: rotate(360deg);
-	}
 }
 
 body {
@@ -146,6 +133,7 @@ form {
 	transform: translateY(50%);
 	padding: 0px;
 	margin: 0px;
+	text-decoration: none;
 }
 .UserIcon .row:hover {
 	cursor: pointer;
@@ -163,6 +151,9 @@ form {
 	transform: translateY(500%);
 	padding: 0px;
 	margin: 0px;
+}
+.UserIcon .row:link {
+	text-decoration: none;
 }
 
 /* Dashbar */
@@ -222,6 +213,7 @@ form {
 /* Current Tasks Bubble */
 .CurrentTaskBubble {
 	width: 58%;
+	left: 6%;
 	height: auto;
 	position: relative;
 	color: #205f98;

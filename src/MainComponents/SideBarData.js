@@ -1,4 +1,6 @@
 import * as Icons from "react-bootstrap-icons";
+import { Link } from "react-router-dom"
+
 // import url("https://fonts.googleapis.com/css2?family=Sora:wght@400;600&display=swap");
 
 export const SidebarData = [
@@ -32,6 +34,6 @@ export const SidebarLogo = {
 
 export const SidebarUser = {
 	title: "User",
-	icon: <Icons.Person size={24} />,
+	icon: <Link to="/login"> <Icons.Person size={24} color={"#205f98"} /> </Link>,
 	link: "",
 };

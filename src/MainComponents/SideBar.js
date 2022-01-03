@@ -1,7 +1,4 @@
 import React from "react";
-// import SidebarData from "./SideBarData";
-// import SidebarLogo from "./SideBarData";
-// import SidebarUser from "./SideBarData";
 
 import { SidebarData, SidebarLogo, SidebarUser } from "./SideBarData";
 function SideBar() {

@@ -1,4 +1,5 @@
 import "../App.css";
+import "../Styles/Login.css";
 import react, { useState, button } from "react";
 import React, { ReactDOM } from "react";
 import { GoogleLogin } from "react-google-login";
@@ -41,10 +42,28 @@ class Login extends React.Component {
 	render() {
 		return (
 			<div className="App">
-				<h1 >Google Login Demo</h1>
-				<div id="loginButton" className="loginButton">
+				<div> 
+					<h1  className = "Title">SchoolDule</h1>
+				<div>
+				<h2 className = "About" >
+					Everything you need to manage your schedule.
+				</h2>
+				<h3 className = "AboutDescription">
+					We get it, life can be hectic sometimes. Manage school, work, extracurriculars and make time for hobbies and breaks with SchoolDule. Whether its to stay on top of things or just be more organized, SchoolDule has got you covered. 
+				</h3>
+				<div id="loginButton" className="loginButton"
+				style = {{
+					position: "absolute",
+					width: "240px",
+					height: "64px",
+					left: "30%",
+					top: "70%",			
+				}}>
 					Sign in with Google
 				</div>
+				</div>
+				</div>
+				<img src="https://cdn.discordapp.com/attachments/925846117327994890/927311974633709628/unknown.png" alt="SchoolDule" />
 				<SignUp />
 			</div>
 		);

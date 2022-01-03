@@ -15,9 +15,53 @@
         position: absolute;
         width: 240px;
         height: 64px;
-        left: 12%;
-        top: 70%;
-        background: #FFFFFF;
-        border: 5px solid #205F98;
-        border-radius: 10px
+        left: 80%;
+        top: 627px;
+
+}
+
+.Title {
+        position: absolute;
+        width: 300px;
+        height: 83px;
+        left: 180px;
+        top: 20px;
+        
+        font-family: Sora;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 60px;
+        line-height: 83px;
+        
+        color: #205F98;  
+}
+.About {
+        position: absolute;
+        width: 606px;
+        height: 180px;
+        left: 70px;
+        top: 170px;
+        font-family: Sora;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 50px;
+        line-height: 71px;
+        color: #205F98;
+        text-align: justify;
+}
+.AboutDescription{
+        position: absolute;
+        width: 800px;
+        height: 60px;
+        left: 70px;
+        top: 320px;
+        text-align: justify;
+        font-family: Sora;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 25px;
+        line-height: 40px;
+
+color: #C3DBEF;
+
 }
