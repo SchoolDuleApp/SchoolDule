@@ -1,4 +1,5 @@
 import * as Icons from "react-bootstrap-icons";
+// import url("https://fonts.googleapis.com/css2?family=Sora:wght@400;600&display=swap");
 
 export const SidebarData = [
 	{

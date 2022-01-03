@@ -41,7 +41,7 @@ class Login extends React.Component {
 	render() {
 		return (
 			<div className="App">
-				<h1>Google Login Demo</h1>
+				<h1 >Google Login Demo</h1>
 				<div id="loginButton" className="loginButton">
 					Sign in with Google
 				</div>
