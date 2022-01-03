@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 
 function DashBar() {
-	const [name, setName] = useState("ethan");
+	// const [name, setName] = useState("ethan");
+	const [name] = useState("ethan");
 	var today = new Date();
 	function minuteFixer(date) {
 		if (date.getMinutes() < 10) {

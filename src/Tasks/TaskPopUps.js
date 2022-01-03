@@ -37,15 +37,17 @@ function TaskPopUps({ taskType, handleClose, allTasks, setAllTasks }) {
     */
 	const [subject, setSubject] = useState("");
 	const [description, setDescription] = useState("");
-	const [date, setDate] = useState(new Date());
+	// const [date, setDate] = useState(new Date());
+	const [date] = useState(new Date());
 	const [time, setTime] = useState(new Date());
-	const [rankedTime, setRankedTime] = useState(0);
-	const [done, setDone] = useState(false);
-	const [icon, setIcon] = useState(null);
+
+	// const [rankedTime, setRankedTime] = useState(0);
+	// const [done, setDone] = useState(false);
+	// const [icon, setIcon] = useState(null);
 	// current state???/
 	const [duration, setDuration] = useState("");
 	// for reoccuring
-	const [repetition, setRepetition] = useState("");
+	// const [repetition, setRepetition] = useState("");
 	const [endDate, setEndDate] = useState("");
 
 	function handleButtonSubmit(e) {

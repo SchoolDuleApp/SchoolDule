@@ -61,7 +61,6 @@
         font-weight: normal;
         font-size: 25px;
         line-height: 40px;
-
         color: #C3DBEF;
 
 }
@@ -77,13 +76,25 @@
 }
 .smallerLoginPhoto{
         position: absolute;
-width: 497px;
-height: 203px;
+width: 350px;
+height: 143px;
 left: 979px;
-top: 128px;
+top: 70px;
 
-background: url(https://cdn.discordapp.com/attachments/925606377198608386/927426711958720642/unknown.png);
 }
 .smallerLoginPhoto2{
-        
+        position: absolute;
+width: 300px;
+height: 167px;
+left: 790px;
+top: 500px;
+}
+.smallerLoginPhoto3{
+        position: absolute;
+width: 180px;
+height: 178px;
+left: 1180px;
+top: 500px;
+
+
 }
