@@ -5,6 +5,7 @@ import React from "react";
 // import { ReactDOM } from "react";
 // import { GoogleLogin } from "react-google-login";
 import SignUp from "../MainComponents/SignUpPage";
+import logo from "./logo.png";
 
 class Login extends React.Component {
 	insertGapiScript() {
@@ -57,7 +58,7 @@ class Login extends React.Component {
 					position: "absolute",
 					width: "240px",
 					height: "64px",
-					left: "30%",
+					left: "25%",
 					top: "70%",			
 				}}>
 					Sign in with Google
@@ -68,6 +69,8 @@ class Login extends React.Component {
 				<img src= "https://cdn.discordapp.com/attachments/925606377198608386/927426711958720642/unknown.png" alt = " " className = "smallerLoginPhoto"/>
 				<img src= "https://cdn.discordapp.com/attachments/925606377198608386/927426759362748486/unknown.png" alt = " " className = "smallerLoginPhoto2"/>
 				<img src="https://cdn.discordapp.com/attachments/925606377198608386/927426837871734814/unknown.png" alt = " " className = "smallerLoginPhoto3"/>
+				<img src = { logo } alt = "logo" className = "logo" />
+				
 				<SignUp />
 			</div>
 		);
