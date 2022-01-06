@@ -34,6 +34,7 @@ function SuperTasks() {
 			{toggleTaskPopup && (
 				<TaskPopUps
 					taskType={taskType}
+					setTaskType={setTaskType}
 					handleClose={handleClose}
 					allTasks={allTasks}
 					setAllTasks={setAllTasks}

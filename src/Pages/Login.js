@@ -44,9 +44,22 @@ class Login extends React.Component {
 	render() {
 		return (
 			<div className="login">
-				<div className="left"> 
-				<div className="left-wrap">
-					<h1  className = "Title">SchoolDule</h1>
+				<h1  className = "Title">SchoolDule</h1>
+				<div id="loginButton" className="loginButton"
+				style = {{
+					position: "absolute",
+					width: "240px",
+					height: "64px",
+					left: "25%",
+					top: "70%",			
+				}}>
+					Sign in with Google
+				
+				</div>
+				<img src = { logo } alt = "logo" className = "logo" />
+
+				<div className = "Body">
+
 					<div className = "Content">
 						<h2 className = "About">
 							Everything you need to manage your schedule.
@@ -55,25 +68,17 @@ class Login extends React.Component {
 							We get it, life can be hectic sometimes. Manage school, work, and breaks with SchoolDule. Whether it's to stay on top of things or just be more organized, SchoolDule has got you covered. 
 						</h3>
 					</div> 
-					<div id="loginButton" className="loginButton"
-					style = {{
-						position: "absolute",
-						width: "240px",
-						height: "64px",
-						left: "25%",
-						top: "70%",			
-					}}>
-						Sign in with Google
+
+					<div className="photos">
+						<img className = "upcomingTasksPhoto" src= "https://cdn.discordapp.com/attachments/925846117327994890/928483046250905630/unknown.png" alt = " " />
+						<img className = "weeklyCalendarPhoto" src= "https://cdn.discordapp.com/attachments/925846117327994890/928482846484598804/unknown.png" alt = " "/>
+						<img className = "calendarPhoto" src="https://cdn.discordapp.com/attachments/925846117327994890/928482948536213594/unknown.png" alt = " "/>
+						<img className = "loginPhoto" src="https://cdn.discordapp.com/attachments/925846117327994890/928482776523632700/unknown.png" alt="SchoolDule"/>
 					</div>
-					</div>	
+
 				</div>
-				<div className="right">
-				<img src="https://cdn.discordapp.com/attachments/925846117327994890/928482776523632700/unknown.png" alt="SchoolDule" className = "loginPhoto"/>
-				{/* <img src= "https://cdn.discordapp.com/attachments/925846117327994890/928483046250905630/unknown.png" alt = " " className = "smallerLoginPhoto"/>
-				<img src= "https://cdn.discordapp.com/attachments/925846117327994890/928482846484598804/unknown.png" alt = " " className = "smallerLoginPhoto2"/>
-				<img src="https://cdn.discordapp.com/attachments/925846117327994890/928482948536213594/unknown.png" alt = " " className = "smallerLoginPhoto3"/> */}
-				<img src = { logo } alt = "logo" className = "logo" />
-				</div>
+				
+
 				<SignUp />
 			</div>
 		);

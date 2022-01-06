@@ -5,8 +5,9 @@ import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
 import "../Styles/TaskPopUp.css"
 import "../App.css"
+import TimePicker from 'react-bootstrap-time-picker';
 
-function TaskPopUps({ taskType, handleClose, allTasks, setAllTasks }) {
+function TaskPopUps({ taskType, setTaskType, handleClose, allTasks, setAllTasks }) {
 	// keys for {TASK}
 		/*
         // new Date(...)
@@ -118,7 +119,7 @@ function TaskPopUps({ taskType, handleClose, allTasks, setAllTasks }) {
 
 	function QuickTask() {
 		return (
-			<Modal className = "popup" show={true} onHide={handleClose} >
+			<Modal className="popup" show={true} onHide={handleClose} >
 				<Modal.Header className="popup-header">
 					<Modal.Title>Add a Quick Task</Modal.Title>
 				</Modal.Header>
@@ -191,8 +192,9 @@ function TaskPopUps({ taskType, handleClose, allTasks, setAllTasks }) {
 				<Modal.Header className="popup-head">
 					{/* <Modal.Title>Add a Reoccuring Task</Modal.Title> */}
 					<div className="popup-head">
-						<Button className="popup-head-button">Add Quick Task</Button>
-						<Button className="popup-head-button">Add Reoccuring Task</Button>
+						{taskType==="reoccuring" ? console.log("reoccuring") : console.log("quick")}
+						<Button CausesValidation="False" onClick={setTaskType("reoccuring")} className={`popup-head-button ${taskType==="reoccuring" ? "current" : "test"}`} >Add Quick Task</Button>
+						<Button CausesValidation="False" onClick={console.log("br1111uh")} className={`popup-head-button ${taskType==="quick" ? "current" : "test"}`} >Add Reoccuring Task</Button>
 					</div>
 				</Modal.Header>
 				<Modal.Body className="popup-body-outline">
@@ -202,10 +204,10 @@ function TaskPopUps({ taskType, handleClose, allTasks, setAllTasks }) {
 							id="subjectReoc"
 							type="text"
 							placeholder="What is the subject"
-							// value={subject}
-							// onChange={(e) => setSubject(e.target.value)}
 							autocomplete="off"
 						/>
+						<label>Start Time</label>
+						<TimePicker  step={30} />
 						<label>End Date</label>
 						<DatePicker id="endReoc" minDate={new Date()} selected={endDate} />
 						<label>Repetition Period</label>
@@ -251,7 +253,7 @@ function TaskPopUps({ taskType, handleClose, allTasks, setAllTasks }) {
 	return (
 		<div className="popup-box">
 			{taskType ? console.log("true.") : console.log("false")}
-			{taskType ? <ReoccuringTask /> : <QuickTask />}
+			{taskType==="reoccuring" ? <ReoccuringTask /> : <QuickTask />}
 		</div>
 	);
 }

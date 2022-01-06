@@ -1,4 +1,5 @@
 // Run this file to connect to the database and create the database
+// Creates a table called userdata that stores all tasks for our website
 
 // https://www.bezkoder.com/node-js-rest-api-express-mysql/
 
@@ -35,7 +36,7 @@ con.connect(function(err) {
     });
 
     con.query(
-        'CREATE TABLE IF NOT EXISTS `userdata2` (' +
+        'CREATE TABLE IF NOT EXISTS `userdata` (' +
         'uuid varchar(255) NOT NULL PRIMARY KEY,' +
         'subject varchar(255), ' +
         'descripton text, ' +

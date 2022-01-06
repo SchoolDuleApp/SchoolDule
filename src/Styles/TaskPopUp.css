@@ -8,13 +8,42 @@
 .popup-head{
     background-color: #C3DBEF;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
+    align-content: center;
+    width: 100%;
+    padding: 0px;
 } 
 .popup .popup-head-button{
-    background-color: white;
+    margin: 2px;
+    background-color: #EDF3F8;
+    width: 50%;
     color: #205F98;
     border: none;
-    /* font-size: 20px; */
-    /* font-weight: 600; */
+    
+    font-size: 18px;
+    font-weight: 600;
+    flex-grow: 1;
+    
+  
 }
+
+.popup .popup-head-button:hover{
+    background-color: white;
+    color: #205F98;
+}
+
+.popup .popup-head-button .current{ 
+    background-color: red;
+    color: #205F98;
+} 
+.popup .popup-head-button:active{ 
+    background-color: white;
+    color: #205F98;
+} 
+.popup .popup-head-button .test{ 
+    background-color: green;
+    color: #205F98;
+} 
+
+
