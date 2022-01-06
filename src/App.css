@@ -386,5 +386,12 @@ form {
 	border-radius: 10px;
 }
 
+.popup-head-button{
+    background-color: white;
+    color: #205F98;
+    border: none;
+    /* font-size: 20px; */
+    /* font-weight: 600; */
+}
 
 

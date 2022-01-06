@@ -1,5 +1,29 @@
 @import url("https://fonts.googleapis.com/css2?family=Sora:wght@400;600&display=swap");
 
+.login{
+        display: flex;
+}
+
+.left{
+        flex: 1;
+        display:flex;
+        align-items: center;
+}
+.left-wrap{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+}
+.right{
+        flex: 1;
+}
+.Content{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-content: center;
+}
+
 .SignUp {
 	position: absolute;
 	width: 100px;
@@ -36,11 +60,12 @@
         color: #205F98;  
 }
 .About {
-        position: absolute;
+        /* position: absolute; */
+        order: 1;
         width: 606px;
-        height: 180px;
-        left: 70px;
-        top: 170px;
+        /* height: 180px; */
+        /* left: 70px;
+        top: 170px; */
         font-family: Sora;
         font-style: normal;
         font-weight: normal;
@@ -50,11 +75,12 @@
         text-align: left;
 }
 .AboutDescription{
-        position: absolute;
+        /* position: absolute; */
+        order: 0;
         width: 650px;
-        height: 60px;
-        left: 70px;
-        top: 320px;
+        /* height: 60px; */
+        /* left: 70px;
+        top: 320px; */
         text-align: left;
         font-family: Sora;
         font-style: normal;
@@ -71,15 +97,15 @@
         height: 399px;
         left: 750px;
         top: 150px;
-        opacity: 0.5;
-        background: url(https://cdn.discordapp.com/attachments/925846117327994890/927311974633709628/unknown.png)
+        opacity: 70%;
 }
-.smallerLoginPhoto{
+/* .smallerLoginPhoto{
         position: absolute;
         width: 350px;
         height: 143px;
         left: 979px;
         top: 70px;
+        opacity: 60%;
 
 }
 .smallerLoginPhoto2{
@@ -88,6 +114,7 @@
         height: 167px;
         left: 790px;
         top: 500px;
+        opacity: 60%;
 }
 .smallerLoginPhoto3{
         position: absolute;
@@ -95,11 +122,12 @@
         height: 178px;
         left: 1180px;
         top: 500px;
+        opacity: 60%;
 
-}
+} */
 
 .logo {
-	position: absolute;
+	position: absolute; 
 	width: 120px;
 	left: 58px;
 	top: 12px;

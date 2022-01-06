@@ -1,0 +1,20 @@
+
+.popup-body-outline{
+    background-color: #C3DBEF
+}
+.popup-body{
+    background-color: white;
+}
+.popup-head{
+    background-color: #C3DBEF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+} 
+.popup .popup-head-button{
+    background-color: white;
+    color: #205F98;
+    border: none;
+    /* font-size: 20px; */
+    /* font-weight: 600; */
+}

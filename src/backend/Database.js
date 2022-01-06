@@ -4,6 +4,8 @@ var mysql = require('mysql');
 
 var con = mysql.createConnection({
   host: "localhost",
+
+  // Change creds to what you have set up
   user: "root",
   password: "beans"
 });

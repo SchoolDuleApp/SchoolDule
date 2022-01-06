@@ -2,7 +2,8 @@ import { useState } from "react";
 import Button from "react-bootstrap/Button";
 import TodaysTasks from "./TodaysTasks";
 import TaskPopUps from "./TaskPopUps";
-
+import "../Styles/TaskPopUp.css"
+import 'bootstrap/dist/css/bootstrap.min.css';
 function SuperTasks() {
 	// for reoccuring popup
 	const [toggleTaskPopup, setToggleTaskPopup] = useState(false);
@@ -28,7 +29,7 @@ function SuperTasks() {
 	return (
 		<div className="tasks">
 			<TodaysTasks allTasks={allTasks} />
-			<Button onClick={toggleReoccuring}>Add Reoccuring</Button>
+			<Button className="btn-success" onClick={toggleReoccuring}>Add Reoccuring</Button>
 			<Button onClick={toggleQuick}>Add Quick</Button>
 			{toggleTaskPopup && (
 				<TaskPopUps

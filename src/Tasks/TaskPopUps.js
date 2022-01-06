@@ -3,6 +3,8 @@ import Button from "react-bootstrap/Button";
 import Modal from "react-bootstrap/Modal";
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
+import "../Styles/TaskPopUp.css"
+import "../App.css"
 
 function TaskPopUps({ taskType, handleClose, allTasks, setAllTasks }) {
 	// keys for {TASK}
@@ -12,23 +14,43 @@ function TaskPopUps({ taskType, handleClose, allTasks, setAllTasks }) {
     
         // note that js uses dates like 0 = Jan, 11 = Dec 
     
-    
+		\\ Course name
         subject: subject, 
+		\\ Description
         description: description, 
+
+		\\ Start date
         date: date,
+
+		\\ Start time
         time: time,
+
+		\\ based on unix time
         rankedTime: new Date(date.getFullYear(), date.getMonth(), date.getDate(), time.getHours(), time.getMinutes()),
         
+		\\ done?
         done: false,
+
+		\\ Icon
         icon: null 
+
+		\\ replace this with /getcurrentasks
         current: false,
+
+		\\ length of task
         duration: duration,
-        id: Math.random() * 10000,
+
+		\\ id "salt"
+        id: `${time}${Math.random() * 10000}`,
     
         if (taskType != 'reoccuring'){
+
+			\\ this is a string, day of repeat ition
             repetition: null,
+			period: null,
             endDate: null,
         } else {
+			\\ THIS IS WEEKLY ONLY
             repetition: repetition, // (multiselect dropdown menu input)
             endDate: endDate,
         }
@@ -78,7 +100,9 @@ function TaskPopUps({ taskType, handleClose, allTasks, setAllTasks }) {
 					description: description,
 					date: date, //dateFixed,
 					time: time, //time.getHours() + ":" + time.getMinutes(),
-					id: Math.random() * 10000,
+
+					// ensures that ids do not collide
+					id: `${time}${Math.random() * 10000}`,
 					done: false,
 					current: false,
 					duration: duration,
@@ -94,12 +118,13 @@ function TaskPopUps({ taskType, handleClose, allTasks, setAllTasks }) {
 
 	function QuickTask() {
 		return (
-			<Modal show={true} onHide={handleClose}>
-				<Modal.Header>
+			<Modal className = "popup" show={true} onHide={handleClose} >
+				<Modal.Header className="popup-header">
 					<Modal.Title>Add a Quick Task</Modal.Title>
 				</Modal.Header>
-				<Modal.Body>
-					<form>
+				<Modal.Body className="popup-body">
+				
+					<form className="popup-body">
 						<label>Subject</label>
 						<input
 							id="subjectQuick"
@@ -162,12 +187,16 @@ function TaskPopUps({ taskType, handleClose, allTasks, setAllTasks }) {
 
 	function ReoccuringTask() {
 		return (
-			<Modal show={true} onHide={handleClose}>
-				<Modal.Header>
-					<Modal.Title>Add a Reoccuring Task</Modal.Title>
+			<Modal className = "popup" show={true} onHide={handleClose}>
+				<Modal.Header className="popup-head">
+					{/* <Modal.Title>Add a Reoccuring Task</Modal.Title> */}
+					<div className="popup-head">
+						<Button className="popup-head-button">Add Quick Task</Button>
+						<Button className="popup-head-button">Add Reoccuring Task</Button>
+					</div>
 				</Modal.Header>
-				<Modal.Body>
-					<form>
+				<Modal.Body className="popup-body-outline">
+					<form className="popup-body">
 						<label>Subject</label>
 						<input
 							id="subjectReoc"
