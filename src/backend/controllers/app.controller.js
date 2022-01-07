@@ -10,32 +10,31 @@ exports.createQuick = (req, res) => {
         message: "Content can not be empty!"
       });
     }
-    console.log("Beans");
+    console.log(req.body);
+    // Create a Tutorial
+    const task = new Task({
+      uuid: req.body.uuid,
+      subject: req.body.subject,
+      description: req.body.description,
+      date: req.body.date,
+      time: req.body.time,
+      rankedTime: req.body.rankedTime,
+      done: req.body.rankedTime || false,
+      duration: req.body.rankedTime,
+      id: req.body.id,
+      repetition: false,
+      endDate: req.body.endDate
+    });
   
-    // // Create a Tutorial
-    // const task = new Task({
-    //   uuid: req.body.uuid,
-    //   subject: req.body.subject,
-    //   description: req.body.description,
-    //   date: req.body.date,
-    //   time: req.body.time,
-    //   rankedTime: req.body.rankedTime,
-    //   done: req.body.rankedTime || false,
-    //   duration: req.body.rankedTime,
-    //   id: req.body.id,
-    //   repetition: false,
-    //   endDate: req.body.endDate
-    // });
-  
-    // // Save Tutorial in the database
-    // Task.createQuick(task, (err, data) => {
-    //   if (err)
-    //     res.status(500).send({
-    //       message:
-    //         err.message || "Some error occurred while creating the Task."
-    //     });
-    //   else res.send(data);
-    // });
+    // Save Tutorial in the database
+    Task.createQuick(task, (err, data) => {
+      if (err)
+        res.status(500).send({
+          message:
+            err.message || "Some error occurred while creating the Task."
+        });
+      else res.send(data);
+    });
   };
 
 // // Retrieve all Tutorials from the database (with condition).

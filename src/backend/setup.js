@@ -39,7 +39,7 @@ con.connect(function(err) {
         'CREATE TABLE IF NOT EXISTS `userdata` (' +
         'uuid varchar(255) NOT NULL PRIMARY KEY,' +
         'subject varchar(255), ' +
-        'descripton text, ' +
+        'description text, ' +
         'date tinytext, ' +
         'time tinytext, ' +
         'rankedTime int(4), ' +

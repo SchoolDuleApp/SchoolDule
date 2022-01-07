@@ -21,7 +21,7 @@ const Task = function(task) {
 
 Task.createQuick = (newQuickTask, result) => {
   sql.query(
-    "INSERT INTO tasks SET ?", newQuickTask, (err, res) => {
+    "INSERT INTO userdata SET ?", newQuickTask, (err, res) => {
       if (err) {
         console.log("error: ", err);
         result(err, null);
