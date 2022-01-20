@@ -13,28 +13,27 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/time-management-school-app/SchoolDule">
-    <img src="images/logo.png" alt="Logo" width="120" height="120">
+  <a href="https://github.com/SchoolDuleApp/SchoolDule">
+    <img src="images/logo.png" alt="Logo" width="240" height="240">
   </a>
 
-<h3 align="center">project_title</h3>
+<h3 align="center">SchoolDule</h3>
 
   <p align="center">
     project_description
     <br />
-    <a href="https://github.com/time-management-school-app/SchoolDule"><strong>Explore the docs »</strong></a>
     <br />
-        <a href="https://github.com/time-management-school-app/SchoolDule/actions/workflows/azure-static-web-apps-red-tree-030b4560f.yml"> 
-        <img src="https://github.com/time-management-school-app/SchoolDule/actions/workflows/azure-static-web-apps-red-tree-030b4560f.yml/badge.svg?branch=main" alt="DevOps Status">
+    <a href="https://github.com/SchoolDuleApp/SchoolDule/actions/workflows/azure-static-web-apps-red-tree-030b4560f.yml"> 
+        <img src="https://github.com/SchoolDuleApp/SchoolDule/actions/workflows/azure-static-web-apps-red-tree-030b4560f.yml/badge.svg?branch=main" alt="DevOps Status">
     </a>
+    <a href="https://github.com/SchoolDuleApp/SchoolDule"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <br />
-    <a href="https://github.com/time-management-school-app/SchoolDule">View Demo</a>
+    <a href="https://github.com/SchoolDuleApp/SchoolDule">View Demo</a>
     ·
-    <a href="https://github.com/time-management-school-app/SchoolDule/issues">Report Bug</a>
+    <a href="https://github.com/SchoolDuleApp/SchoolDule/issues">Report Bug</a>
     ·
-    <a href="https://github.com/time-management-school-app/SchoolDule/issues">Request Feature</a>
+    <a href="https://github.com/SchoolDuleApp/SchoolDule/issues">Request Feature</a>
   </p>
 </div>
 
@@ -113,7 +112,7 @@ This is an example of how to list things you need to use the software and how to
 1. Get a free API Key at [https://example.com](https://example.com)
 2. Clone the repo
    ```sh
-   git clone https://github.com/time-management-school-app/SchoolDule.git
+   git clone https://github.com/SchoolDuleApp/SchoolDule.git
    ```
 3. Install NPM packages
    ```sh
@@ -215,7 +214,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 - [] Feature 3
     - [] Nested Feature
 
-See the [open issues](https://github.com/time-management-school-app/SchoolDule/issues) for a full list of proposed features (and known issues).
+See the [open issues](https://github.com/SchoolDuleApp/SchoolDule/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -253,7 +252,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com
 
-Project Link: [https://github.com/time-management-school-app/SchoolDule](https://github.com/time-management-school-app/SchoolDule)
+Project Link: [https://github.com/SchoolDuleApp/SchoolDule](https://github.com/SchoolDuleApp/SchoolDule)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -273,15 +272,15 @@ Project Link: [https://github.com/time-management-school-app/SchoolDule](https:/
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [contributors-shield]: https://img.shields.io/github/contributors/github_username/repo_name.svg?style=for-the-badge
-[contributors-url]: https://github.com/time-management-school-app/SchoolDule/graphs/contributors
+[contributors-url]: https://github.com/SchoolDuleApp/SchoolDule/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/github_username/repo_name.svg?style=for-the-badge
-[forks-url]: https://github.com/time-management-school-app/SchoolDule/network/members
+[forks-url]: https://github.com/SchoolDuleApp/SchoolDule/network/members
 [stars-shield]: https://img.shields.io/github/stars/github_username/repo_name.svg?style=for-the-badge
-[stars-url]: https://github.com/time-management-school-app/SchoolDule/stargazers
+[stars-url]: https://github.com/SchoolDuleApp/SchoolDule/stargazers
 [issues-shield]: https://img.shields.io/github/issues/github_username/repo_name.svg?style=for-the-badge
-[issues-url]: https://github.com/time-management-school-app/SchoolDule/issues
+[issues-url]: https://github.com/SchoolDuleApp/SchoolDule/issues
 [license-shield]: https://img.shields.io/github/license/github_username/repo_name.svg?style=for-the-badge
-[license-url]: https://github.com/time-management-school-app/SchoolDule/blob/master/LICENSE.txt
+[license-url]: https://github.com/SchoolDuleApp/SchoolDule/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/linkedin_username
 [product-screenshot]: images/schooldule.png
