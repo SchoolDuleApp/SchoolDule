@@ -16,6 +16,8 @@
     <a href="https://github.com/SchoolDuleApp/SchoolDule/actions/workflows/azure-static-web-apps-red-tree-030b4560f.yml"> 
         <img src="https://github.com/SchoolDuleApp/SchoolDule/actions/workflows/azure-static-web-apps-red-tree-030b4560f.yml/badge.svg?branch=main" alt="DevOps Status">
     </a>
+    <br />
+    <br />
     <a href="https://github.com/SchoolDuleApp/SchoolDule"><strong>Explore the docs »</strong></a>
     <br />
     <br />
