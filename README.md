@@ -280,7 +280,7 @@ Project Link: [https://github.com/SchoolDuleApp/SchoolDule](https://github.com/S
 [issues-shield]: https://img.shields.io/github/issues/SchoolDuleApp/SchoolDule.svg?style=for-the-badge
 [issues-url]: https://github.com/SchoolDuleApp/SchoolDule/issues
 [license-shield]: https://img.shields.io/github/license/SchoolDuleApp/SchoolDule.svg?style=for-the-badge
-[license-url]: https://github.com/SchoolDuleApp/SchoolDule/blob/master/LICENSE.txt
+[license-url]: https://github.com/SchoolDuleApp/SchoolDule/blob/master/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/linkedin_username
 [product-screenshot]: images/schooldule.png
