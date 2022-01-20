@@ -6,8 +6,6 @@
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
-
 
 
 <!-- PROJECT LOGO -->
@@ -281,6 +279,4 @@ Project Link: [https://github.com/SchoolDuleApp/SchoolDule](https://github.com/S
 [issues-url]: https://github.com/SchoolDuleApp/SchoolDule/issues
 [license-shield]: https://img.shields.io/github/license/SchoolDuleApp/SchoolDule.svg?style=for-the-badge
 [license-url]: https://github.com/SchoolDuleApp/SchoolDule/blob/master/LICENSE
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/linkedin_username
 [product-screenshot]: images/schooldule.png
