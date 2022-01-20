@@ -1,13 +1,5 @@
 <div id="top"></div>
 
-<!-- PROJECT SHIELDS -->
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-
-
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
@@ -269,14 +261,4 @@ Project Link: [https://github.com/SchoolDuleApp/SchoolDule](https://github.com/S
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/SchoolDuleApp/SchoolDule.svg?style=for-the-badge
-[contributors-url]: https://github.com/SchoolDuleApp/SchoolDule/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/SchoolDuleApp/SchoolDule.svg?style=for-the-badge
-[forks-url]: https://github.com/SchoolDuleApp/SchoolDule/network/members
-[stars-shield]: https://img.shields.io/github/stars/SchoolDuleApp/SchoolDule.svg?style=for-the-badge
-[stars-url]: https://github.com/SchoolDuleApp/SchoolDule/stargazers
-[issues-shield]: https://img.shields.io/github/issues/SchoolDuleApp/SchoolDule.svg?style=for-the-badge
-[issues-url]: https://github.com/SchoolDuleApp/SchoolDule/issues
-[license-shield]: https://img.shields.io/github/license/SchoolDuleApp/SchoolDule.svg?style=for-the-badge
-[license-url]: https://github.com/SchoolDuleApp/SchoolDule/blob/master/LICENSE
 [product-screenshot]: images/schooldule.png
