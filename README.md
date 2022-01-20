@@ -16,9 +16,6 @@
   <a href="https://github.com/time-management-school-app/SchoolDule">
     <img src="images/logo.png" alt="Logo" width="120" height="120">
   </a>
-  <a href="https://github.com/time-management-school-app/SchoolDule/actions/workflows/azure-static-web-apps-red-tree-030b4560f.yml"> 
-    <img src="https://github.com/time-management-school-app/SchoolDule/actions/workflows/azure-static-web-apps-red-tree-030b4560f.yml/badge.svg?branch=main" alt="DevOps Status">
-  </a>
 
 <h3 align="center">project_title</h3>
 
@@ -26,6 +23,11 @@
     project_description
     <br />
     <a href="https://github.com/time-management-school-app/SchoolDule"><strong>Explore the docs »</strong></a>
+    <br />
+        <a href="https://github.com/time-management-school-app/SchoolDule/actions/workflows/azure-static-web-apps-red-tree-030b4560f.yml"> 
+        <img src="https://github.com/time-management-school-app/SchoolDule/actions/workflows/azure-static-web-apps-red-tree-030b4560f.yml/badge.svg?branch=main" alt="DevOps Status">
+    </a>
+    <br />
     <br />
     <br />
     <a href="https://github.com/time-management-school-app/SchoolDule">View Demo</a>
