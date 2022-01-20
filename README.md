@@ -253,7 +253,7 @@ Project Link: [https://github.com/SchoolDuleApp/SchoolDule](https://github.com/S
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-* Check out our UI/Graphics on [Dribble.com](https://dribbble.com/shots/17219548-SchoolDule)!
+* Check out our UI/Graphics on [Dribbble.com](https://dribbble.com/shots/17219548-SchoolDule)!
 * []()
 * []()
 
